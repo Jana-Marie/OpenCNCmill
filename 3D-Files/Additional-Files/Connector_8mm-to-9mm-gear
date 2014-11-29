@@ -1,0 +1,25 @@
+kreis = 200;
+
+rotate([0,180,0])
+union(){
+difference(){
+union(){
+cylinder(h = 22, r = 6, $fn = kreis);
+}
+union(){
+translate([0,0,17])
+#cylinder(h = 5, r = 2.2, $fn = kreis);
+#cylinder(h = 10, r = 4.5, $fn = kreis);
+}
+}
+translate([0,-3,17])
+cube([4,3,10], center = true);
+
+for ( i = [0 : 15] )
+{
+    rotate([0, 0,( i * 360 )/ 16])
+	translate([5,0,0])
+	rotate([0,0,60])
+	cylinder(r = 1.2, h = 10, $fn = 3);
+}
+}
