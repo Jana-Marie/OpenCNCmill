@@ -1,0 +1,17 @@
+kreis = 20;
+
+difference(){
+union(){
+cylinder(h = 45, r = 3.5, $fn = kreis);
+}
+union(){
+translate([0,0,38])
+#cylinder(h = 7, r = 2, $fn = kreis);
+#cylinder(h = 10, r = 2.55, $fn = kreis);
+}
+}
+translate([0,-2,40])
+cube([4,1,10], center = true);
+
+translate([-2.4,-2.5,0])
+cube([4.8,1,10]);
