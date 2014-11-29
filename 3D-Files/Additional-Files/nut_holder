@@ -1,0 +1,17 @@
+difference(){
+union(){
+cube([12,13,12]);
+}
+union(){
+rotate([90,0,0])
+translate([6,6,-9])
+rotate([0,0,31])
+cylinder(r = 6, h= 5, $fn = 6);
+
+rotate([90,0,0])
+translate([6,6,-13.1])
+cylinder(r = 3.5, h= 13.2, $fn = 100);
+
+translate([6,6.5,15.5])
+#cube([10.3,5,15],center=true);
+}}
