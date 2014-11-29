@@ -11,8 +11,8 @@ translate([0,0,(height-(height*0.30))])
 #cylinder(h = height*0.30, r = 2.55, $fn = kreis);
 }
 }
-translate([0,-2,(height-(height*0.30))])
-cube([4,1,height*0.30], center = true);
+translate([-2,-2,(height-(height*0.30))])
+cube([4,1,height*0.30]);
 
 translate([-2.4,-2.5,0])
 cube([4.8,1,height*0.30]);
