@@ -52,9 +52,6 @@ translate([57,17,10])
 
 // Bef_achsen
 
-translate([40,10,10])
-#cylinder(r = 4, h = 10, $fn = kreis);
-
 translate([70,10,-5])
 #cylinder(r = 6, h = 35, $fn = kreis);
 
