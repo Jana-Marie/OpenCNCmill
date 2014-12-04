@@ -3,8 +3,15 @@ kreis = 20;
 difference(){
 union(){
 cube([60,20,15]);
+
 translate([60,0,-5])
 cube([20,20,20]);
+
+translate([40,10,12])
+cube([12,12,20],center=true);
+
+translate([15,10,12])
+cube([12,12,20],center=true);
 }
 
 union(){
@@ -47,10 +54,14 @@ translate([57,17,10])
 #cube([6,6,10], center = true);
 
 // Bef_achsen
-
 translate([40,10,10])
-#cylinder(r = 4, h = 10, $fn = kreis);
+#cylinder(r = 4, h = 12, $fn = kreis);
 
+// Bef_achsen
+translate([15,10,10])
+#cylinder(r = 4, h = 12, $fn = kreis);
+
+// Bef_achsen
 translate([70,10,-5])
 #cylinder(r = 4.5, h = 25, $fn = kreis);
 
