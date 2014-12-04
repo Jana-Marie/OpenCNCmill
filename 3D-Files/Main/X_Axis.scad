@@ -1,9 +1,9 @@
-translate([20,0,0])
+translate([20,20,0])
 _Halter();
 
 mirror([1,0,0])
-translate([20,0,0])
-_Halter();
+translate([20,20,0])
+_Halter2();
 
 mirror([0,1,0])
 translate([20,20,0])
@@ -108,16 +108,16 @@ rotate([0,90,0])
 
 //schrauben
 
-translate([-5,25,-10.5])
+translate([-5.5,25.5,-10.5])
 #cylinder(h=11,r=2,$fn=kreis);
 
-translate([25,-5,-10.5])
+translate([25.5,-5.5,-10.5])
 #cylinder(h=11,r=2,$fn=kreis);
 
-translate([-5,-5,-10.5])
+translate([-5.5,-5.5,-10.5])
 #cylinder(h=11,r=2,$fn=kreis);
 
-translate([25,25,-10.5])
+translate([25.5,25.5,-10.5])
 #cylinder(h=11,r=2,$fn=kreis);
 
 
