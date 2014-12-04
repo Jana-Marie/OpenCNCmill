@@ -22,10 +22,10 @@ color([90,0,0])
 #cylinder(r = 7.5, h = 21, $fn = kreis);
 
 
-translate([40,-0.5,0])
+translate([46,-0.5,6])
 rotate([0,90,90])
 color([90,0,0])
-#cylinder(r = 7.5, h = 21, $fn = kreis);
+#cube([12,12,21]);
 
 //schrauben
 
