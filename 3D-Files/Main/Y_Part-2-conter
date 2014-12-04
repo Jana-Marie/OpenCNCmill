@@ -6,11 +6,11 @@ difference(){
 union(){
 cube([60,20,15]);
 
-translate([40,10,10])
-cube([12,12,22],center=true);
+translate([40,10,12])
+cube([12,12,20],center=true);
 
-translate([15,10,10])
-cube([12,12,22],center=true);
+translate([15,10,12])
+cube([12,12,20],center=true);
 
 
 }
